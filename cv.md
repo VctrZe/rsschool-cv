@@ -1,5 +1,7 @@
 # **Viktoriia Zelenska**
 
+![my photo](cv-avatar.png)
+
 ## **Contacts**
 
 - **Location**: San Francisco, USA
