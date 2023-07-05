@@ -1,2 +1,1 @@
-https://vctrze.github.io/rsschool-cv/cv
-
+https://vctrze.github.io/rsschool-cv/
