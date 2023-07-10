@@ -14,42 +14,195 @@
     <title>CV</title>
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <nav class="nav">
+    <div class="container">
+      <header>
+        <nav>
           <ul class="nav-list">
-            <li class="nav-item">
-              <a href="#Contacts" class="nav-link">Contacts</a>
+            <li>
+              <a href="#my-contacts">Contacts</a>
             </li>
-            <li class="nav-item">
-              <a href="#About Me" class="nav-link">About Me</a>
+            <li>
+              <a href="#profile">About</a>
             </li>
-            <li class="nav-item">
-              <a href="#Skills" class="nav-link">Skills</a>
+            <li>
+              <a href="#my-skills">Skills</a>
             </li>
-            <li class="nav-item">
-              <a href="#Code Example" class="nav-link">Code Example</a>
+            <li>
+              <a href="#my-code">Code</a>
             </li>
-            <li class="nav-item">
-              <a href="#Experience" class="nav-link">Experience</a>
+            <li>
+              <a href="#my-projects">Projects</a>
             </li>
-            <li class="nav-item">
-              <a href="#Education" class="nav-link">Education</a>
+            <li>
+              <a href="#my-education">Education</a>
             </li>
-            <li class="nav-item">
-              <a href="#Languages" class="nav-link">Languages</a>
+            <li>
+              <a href="#my-languages">Languages</a>
             </li>
           </ul>
         </nav>
-      </div>
-    </header>
-    <main>
-      <div class="container"></div>
-    </main>
-    <footer>
-      <div class="container"></div>
-    </footer>
+      </header>
+      <div class="content">
+        <aside>
+          <div class="section profile-image" title="my avatar">
+            <!-- <img src="./assets/img/cv-avatar.jpg" alt="my avatar" /> -->
+          </div>
+          <section class="section" id="my-contacts">
+            <h2 class="section-title">Contacts</h2>
+            <ul class="section-list">
+              <li>
+                <h3>Location:&nbsp;</h3>
+                <p>San Francisco, USA</p>
+              </li>
+              <li>
+                <h3>Email:&nbsp;</h3>
+                <a href="mailto:vikazgit@gmail.com">vikazgit@gmail.com</a>
+              </li>
+              <li>
+                <h3>GitHub:&nbsp;</h3>
+                <a href="https://github.com/VctrZe">vctrze</a>
+              </li>
+              <li>
+                <h3>Discord:&nbsp;</h3>
+                <p>&#64;vctrze</p>
+              </li>
+            </ul>
+          </section>
+          <section class="section" id="my-education">
+            <h2 class="section-title">Education</h2>
+            <ul class="section-list">
+              <li>
+                <h3>National Aerospace University</h3>
+                <p>
+                  "Kharkiv Aviation Institute" <br />
+                  Bachelor of Information Technology <br />
+                  Completed in 2011
+                </p>
+              </li>
+            </ul>
+          </section>
+          <section class="section">
+            <h2 class="section-title">Courses</h2>
+            <ul class="section-list">
+              <li>
+                <h3>The Rolling Scopes School</h3>
+                <p>JavaScript/Front-end</p>
+              </li>
+              <li>
+                <h3>Codecademy.com</h3>
+                <p>HTML basics</p>
+              </li>
+            </ul>
+          </section>
+        </aside>
+        <main>
+          <section class="section" id="profile">
+            <div class="profile-text">
+              <h1 class="section-title">Viktoria Zelenska</h1>
+              <h2 class="horizontalLine">Frontend Engineer Apprentice</h2>
+              <hr class="horizontalLine" />
+              <p>
+                I am a Frontend Engineer Apprentice at RS School with a passion
+                for using technology to solve real-world tech problems, even
+                though I come from a non-traditional background.
+              </p>
+              <p>
+                My interest in technology started when I worked as manager at
+                small web-studio. I often thought of how technology could
+                relieve our difficulties. Once, I had a conversation with a
+                profound software engineer that made me realize the potential of
+                technology, and ever since then, I have been devoted to this
+                field.
+              </p>
+              <p>
+                I have a passion for problem solving, collaborating with people
+                to come up with great ideas, and an eagerness to explore new
+                technologies. Struggling with imposter syndrome, I gained
+                confidence as I completed projects and mastered by experienced
+                engineers at RS School.
+              </p>
+            </div>
+          </section>
+          <section class="section" id="my-skills">
+            <h2 class="section-title">Skills and Proficiency</h2>
+            <ul class="section-list column-list">
+              <li>HTML5</li>
+              <li>CSS3</li>
+              <li>Git/GitHub</li>
+              <li>JavaScript</li>
+              <li>Typescript</li>
+              <li>React.js</li>
+              <li>Webpack</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Procreate</li>
+              <li>VSCode</li>
+            </ul>
+          </section>
+          <section class="section" id="my-code">
+            <h2 class="section-title">Code example</h2>
+            <pre>
+<code>let array =  [1, 10, 31];
 
-    <img src="./assets/img/cv-avatar.png" alt="my avatar" />
+  let result = array.reduce((x, y) => {
+    return x + y;
+  }, 10);
+  
+  console.log(result);</code></pre>
+          </section>
+          <section class="section" id="my-projects">
+            <h2 class="section-title">My projects</h2>
+            <div class="section-content">
+              <div>
+                <h3>RSSchool CV project</h3>
+                <p>CV page</p>
+                <a
+                  href="https://vctrze.github.io/rsschool-cv/"
+                  class="button"
+                  target="_blank"
+                  >Open code</a
+                >
+              </div>
+              <div>
+                <h3>Library</h3>
+                <p>Landing page</p>
+                <a
+                  href="https://vctrze.github.io/rsschool-cv/"
+                  class="button"
+                  target="_blank"
+                  >Open code</a
+                >
+              </div>
+            </div>
+          </section>
+          <section class="section" id="my-languages">
+            <h2 class="section-title">Languages</h2>
+            <ul class="section-list">
+              <li>English - C1 (limited working proficiency)</li>
+              <li>Russian - native speaker</li>
+              <li>Ukrainian - native speaker</li>
+            </ul>
+          </section>
+        </main>
+      </div>
+      <footer>
+        <a
+          href="https://github.com/VctrZe"
+          target="_blank"
+          title="Go to VctrZe's GitHub profile"
+          ><img src="./assets/img/github-mark.png" alt="VctrZe GitHub profile"
+        /></a>
+        <p>2023</p>
+        <a
+          href="https://rs.school/js/"
+          target="_blank"
+          title="The Rolling Scopes School"
+          ><img
+            src="./assets/img/rs_school_js.svg"
+            alt="The Rolling Scopes School"
+        /></a>
+      </footer>
+    </div>
   </body>
 </html>
